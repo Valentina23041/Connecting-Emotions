@@ -1,0 +1,29 @@
+# Backend Python
+**/venv/
+**/.venv/
+**/__pycache__/
+**/*.pyc
+
+# Frontend React Native
+**/node_modules/
+**/.expo/
+**/dist/
+
+# Variables y credenciales privadas
+**/.env
+**/.env.*
+!**/.env.example
+**/serviceAccountKey.json
+**/*service-account*.json
+**/*firebase-adminsdk-*.json
+
+# Archivos temporales
+**/.DS_Store
+**/Thumbs.db
+
+# Credenciales privadas de Firebase
+**/firebase_key.json
+**/firebase_key*.json
+**/*serviceAccount*.json
+**/*firebase-adminsdk*.json
+**/credentials.json
